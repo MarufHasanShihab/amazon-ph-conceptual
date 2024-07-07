@@ -7,7 +7,9 @@ const MainLayouts = () => {
     return (
         <div>
             <Header></Header>
+            <div className="min-h-screen p-8">
             <Outlet></Outlet>
+            </div>
             <Footer></Footer>
         </div>
     );
